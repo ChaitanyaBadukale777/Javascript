@@ -18,3 +18,6 @@ let myTimeStamp = Date.now() // Get the current timestamp in milliseconds
 // console.log(myTimeStamp); // Current timestamp
 
 console.log(Math.floor(Date.now()/1000)); // Current timestamp in seconds
+
+let newDate = new Date()
+console.log(newDate.getMonth()); // Get the current month (0-11)
